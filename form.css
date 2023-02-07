@@ -1,0 +1,77 @@
+.signup-page {
+    padding-top: 30px;
+    font-family: 'Bebas Neue';
+    font-weight: 300;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-title {
+    text-align: center;
+    font-size: 30px;
+    color: #234c6d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-form {
+    width: 500px;
+    margin: auto;
+}
+
+.signup-form label,
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+    display: block;
+    width: 100%;
+    margin-top: 10px
+}
+
+.signup-form input[type="checkbox"],
+.signup-form input[type="checkbox"] + label {
+    display: inline-block;
+    width: auto;
+}
+
+.signup-form button[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+}
+
+.signup-form input:not([type="checkbox"]):focus,
+.signup-form select:focus
+{
+    outline: none;
+    background-color: #fc997c;
+    border: 1px solid #234c6d;
+    color: #fff;
+}
+
+.signup-form input[type="checkbox"] {
+    appearance: none; /*Tarayıcının varsayılan verdiği görünüm özelliklerini kapatır*/
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    vertical-align: bottom;
+    border-radius: 50%;
+}
+
+.signup-form input[type="checkbox"]:hover {
+    background: #234c6d;
+}
+
+.signup-form input[type="checkbox"]:checked {
+    background: #fc997c;
+}

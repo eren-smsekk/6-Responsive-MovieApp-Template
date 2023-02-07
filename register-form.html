@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="base.css">
+
+    <script>
+        function displayMenu() {
+            var link = document.getElementById('main-nav');
+            link.classList.toggle('responsive');
+        }
+    </script>
+</head>
+<body>
+        <header class="main-header">
+            <div id="main-nav" class="container">
+                <a href="http://127.0.0.1:5500/deneme.html" class="main-header__logo">MovieApp</a>
+                <nav class="main-nav">
+                    <ul class="main-nav__items">
+                        <li class="main-nav__item"><a href="#">Filmler</a></li>
+                        <li class="main-nav__item"><a href="http://127.0.0.1:5500/register-form.html">Contact</a></li>
+                        <li class="main-nav__item"><a href="#" class="btn btn-secondary">Login</a></li>
+                        <li class="main-nav__item">
+                            <a href="#" style="color: white;" onclick="displayMenu()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>     
+        </header>
+
+        <section class="signup-page">
+            <form action="" class="signup-form">
+                <h1 class="signup-title">Create Your Account</h1>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname">
+
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname">
+
+                <label for="e-mail">E-mail</label>
+                <input type="email" id="e-mail">
+
+                <label for="password">Password</label>
+                <input type="password" id="password">
+
+                <label for="gender">Gender</label>
+                <select id="gender">
+                    <option value="">Select</option>
+                    <option value="">Kadın</option>
+                    <option value="">Erkek</option>
+                </select>
+
+                <input type="checkbox" id="agree-terms">
+                <label for="agree-terms">Agree to
+                    <a href="#">Terms &amp; Conditisons</a>
+                </label>
+
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+        
+
+        <section class="scrool-top">
+            <a href="#showcase"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+        </section>
+
+       </section>
+    
+    <footer class="main-footer">
+        <div class="container">
+                <div class="main-foot">
+                    <ul class="main-footer-items">
+                        <li class="main-footer__item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="main-footer__item">
+                        <a href="#">Blog</a>
+                        </li>
+                        <li class="main-footer__item">
+                            <a href="#">Forum</a>
+                        </li>
+                        <li class="main-footer__item">
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-foot">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+                <p style="text-align: center;">©2023 Eren Şimşek, Inc. All rights reserved. HTML5 CSS3 (sadece mobil uyumludur)</p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,462 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,300;0,700;1,300&family=Montserrat:wght@300;700&family=Open+Sans:wght@400;700&display=swap");
+
+@import url("base.css");
+
+
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    
+}
+html,body{
+    padding: 0;
+    margin:0;
+    /* overflow: hidden; */
+}
+
+.check-list li:nth-child(1) {
+    text-decoration: line-through;
+    background: #344CB7;
+}
+.check-list li:nth-child(2) {
+    text-decoration: line-through;
+    background: #344CB7;
+}
+.check-list li:nth-child(3) {
+    text-decoration: line-through;
+    background: #344CB7;
+}
+
+
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+body p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.main-header {
+    background: #FC997C;
+    padding: 8px 16px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1; 
+}
+
+.icon {
+    background: transparent;
+}
+
+.main-header .main-header__logo{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 21px;  
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 99px);
+    text-align: right;
+    list-style: none;
+}
+
+.main-nav .main-nav__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav .main-nav__item {
+    display: inline-block;
+    margin: 0 8px;
+    background: transparent;
+}
+
+.main-nav .main-nav__item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-nav .main-nav__item a:hover{
+    color: #344CB7;
+}
+
+
+
+.main-nav .main-nav__item a:before{
+    /* content: '\2022'; */
+}
+
+.icon{
+    color: #fff;
+}
+
+.icon:active{
+    color: red;
+}
+
+.main-header .container .main-nav .main-nav__items .main-nav__item:last-child {
+    display: none;
+}
+
+.check-list li{
+    list-style: none;
+    background: #EBE645;
+}
+
+.how-it-works .how-it-works-header {
+    text-align: center;
+}
+
+.how-it-works .how-it-works-about {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.how-it-works .how-it-works-about .how-it-works-about-block{
+    width: 30%;
+    display: inline-block;
+}
+
+.how-it-works .how-it-works-about .how-it-works-about-block p{
+    padding: 0 40px;
+}
+
+.how-it-works .how-it-works-about .how-it-works-about-block i{
+    font-size: 40px;
+    color: #FC997C;
+}
+
+.row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-2{
+    float: left;
+    width: 50%;
+}
+
+.features__left {
+    background: 
+    linear-gradient(to bottom, rgba(252, 153, 124, 0.2),rgba(250, 81, 30, 0.2)),
+    url('https://wallpapers-hub.art/wallpaper-images/288739.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.features__right {
+    background-color: #edf5f7;
+    padding: 40px;
+    vertical-align: top;
+}
+
+.features__left,
+.features__right {
+    height: 350px;
+}
+
+#showcase {
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgba(252, 153, 124, 0.2), rgba(250, 81, 30, 0.2)), url('bg.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment:fixed;
+    position: relative;
+    margin-top: 40px;
+}
+
+.showcase-description {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    background: rgba(46, 76, 109, 0.3);
+    border-radius: 10px;
+}
+
+
+.plans .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plans .container {
+    width: 1140px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.plans .container .plan {
+    text-align: center;
+    width: 33%;
+    float: left;
+    background: #344CB7;
+    color: white;
+    box-shadow: 5px 10px 15px 5px #888888;
+}
+
+.plans .container .plan:first-child {
+    padding: 0 40px;
+    margin-right: 5px;
+}
+
+.plans .container .plan:nth-child(2) {
+    padding: 0 40px;
+    position: relative;
+    bottom: 30px;
+}
+
+.plans .container .plan:last-child {
+    padding: 0 40px;
+    margin-left: 5px;
+}
+
+.plans .container .plan .recommended__plan{
+    background: #FC997C !important;
+    color: #fff;
+    
+}
+
+.plans .container .plan .plan__badge{
+    background: #fff;
+    color: #FC997C;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.plan ul {
+    padding: 0;
+    list-style: none;
+}
+
+.btn {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    transition-duration: .6s;
+}
+
+.btn-primary{
+    background: #FC997C;
+    color: #fff;
+    border: 2px solid #FC997C;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}    
+
+.btn-secondary{
+    background: #2E4C6D;
+    color: #fff;
+    border: 2px solid #2E4C6D;
+}
+
+.btn-primary:hover{
+    background: #fff;
+    color: #FC997C;
+    border: 2px solid #FC997C;
+}
+
+.btn-secondary:hover{
+    background: #fff;
+    color: #2E4C6D;
+    border: 2px solid #2E4C6D;
+}
+
+.btn-outline-primary{
+    background: #fff;
+    color: #FC997C;
+    border: 2px solid #FC997C;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.btn-outline-primary:hover{
+    background: #FC997C;
+    color: #fff;
+    border: 2px solid #FC997C;
+}
+
+.btn-outline-secondary{
+    background: #fff;
+    color: #2E4C6D;
+    border: 2px solid #2E4C6D;
+}
+
+.btn-outline-secondary:hover{
+    background: #2E4C6D;
+    color: #fff;
+    border: 2px solid #2E4C6D;
+}
+
+.scrool-top {
+    position: sticky;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+}
+
+.scrool-top i {
+    font-size: 40px;
+    color: #FC997C;
+    border: 1px solid #FC997C;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.counters {
+    background-color: #FC997C;
+    height: 160px;
+}
+
+.counters .counter-item {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.counters .counter-item i{
+    font-size: 30px;
+}
+
+.movie-cards {
+    margin-top: 50px;  
+}
+
+.movie-cards .container{
+      text-align: center;
+}
+
+.movie-cards .movie-cards-title{
+    text-align: center;
+}
+
+.movie-cards .container .movie-card {
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 10px 10px 40px rgba(52, 58, 64, 0.1);
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    transition: all .4s;
+}
+
+.movie-cards .container .movie-card:hover{
+    /* top: -10px; */
+    transform: translateY(-10px);
+}
+
+.movie-cards .container .movie-card .card-image{
+    max-height: 350px;
+}
+
+.movie-cards .container .movie-card .card-body{
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.image-fluid {
+    width: 100%;
+}
+
+.reg_container {
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position: relative;
+}
+
+.main-footer {
+    background: #2E4C6D;
+    padding: 20px 0;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+}
+
+.main-footer .container .main-foot {
+    display: inline-block;
+    width: 49%;
+}
+
+.main-footer .container .copyright {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    color: #fff;
+}
+
+.main-footer .container .main-foot:last-child{
+    text-align: right;
+    font-size: 30px;
+    color: #fff;
+    word-spacing: 10px;
+}
+
+.main-footer .container .main-foot .main-footer-items{
+    font-size: 25px;
+    color: #fff;
+    word-spacing: 10px;
+}
+
+.main-footer .container .main-foot .main-footer-items .main-footer__item{
+    display: inline-block;
+    list-style: none;
+}
+
+.main-footer .container .main-foot .main-footer-items .main-footer__item a{
+    color: #fff;
+    text-decoration: none;
+} 
+
+.copyright {
+    background: #2E4C6D;
+}
+
+.copyright p {
+    margin: 0;
+    color: #fff;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-nav__items .main-nav__item {
+        display: none;
+    }
+    .main-nav__item:last-child {
+        display: block !important;
+        position: absolute;
+        right: 40px;
+        top: 6px;
+        font-size: 22px;
+    }
+
+    .responsive .main-nav__item {
+        display: block;
+        text-align: left;
+        margin: 1rem 0;
+        background: transparent;
+    }
+
+    .responsive .main-nav {
+        display: block;
+    }
+
+    .responsive .main-nav__item:last-child {
+        position: absolute;
+        right: 40px;
+        top: 6px;
+        font-size: 22px;
+    }
+
+    #showcase {
+        background-size: cover;
+        font-size: 14px;
+        margin-top: 0px;
+        background-repeat: no-repeat;
+    }
+
+    .showcase-description {
+        font-size: 15px;
+    }
+
+    .how-it-works .how-it-works-about .how-it-works-about-block{
+        width: 100%;
+    }
+
+    .col-2 {
+        width: 100%;
+        float: none;
+    }
+
+    .features__right {
+        background-color: #edf5f7;
+        padding: 10px 41px;
+        vertical-align: top;
+        font-size: 13px;
+    }
+
+    .plans {
+        margin: 0 50px;
+    }
+
+    .plans .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .plans .container .plan {
+        width: 100%;
+        font-size: 21px;
+        margin: 0 0 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .plans .container .plan:nth-child(2) {
+        padding: 0;
+        margin-top: 70px !important;
+    }
+
+    .plans .container .plan .plan__badge{
+        width: 170px;
+        text-align: center;
+        margin: 20px auto;
+        font-size: 22px;
+    }
+
+    .counters {
+        margin-top: 40px;
+    }
+
+    .counters .container{
+        width: 100%;
+    }
+
+    .counters .container .counter-item {
+        width: 32% !important;
+    }
+
+    .movie-cards .container .movie-card {
+        width: 85%;
+    }
+
+    .signup-page {
+        margin: 0 auto;
+        height: 80vh;
+    }
+    
+    .signup-form {
+        width: 100%;
+    }
+
+    .signup-form label,
+    .signup-form input:not([type="checkbox"]),
+    .signup-form select {
+        display: block;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .signup-form input[type="checkbox"] {
+        margin-left: 15px;
+    }
+
+    .main-footer .container .main-foot {
+        width: 100%;
+        display: block;
+    }
+
+    .main-footer .container .main-foot:last-child{
+        text-align: center !important;
+    }
+
+    .main-footer .container .main-foot .main-footer-items {
+        padding: 0;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
