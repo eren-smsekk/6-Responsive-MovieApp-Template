@@ -1,4 +1,4 @@
-# MovieApp
+# Proje 6
 
 ![image](https://user-images.githubusercontent.com/115400485/217228693-347c6b46-be9f-4521-a792-d3cf310ec6a8.png)
 ![image](https://user-images.githubusercontent.com/115400485/217228746-60216f0a-a3dc-4ed3-8770-7d4c80bdab63.png)
